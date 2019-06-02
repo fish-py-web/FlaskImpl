@@ -1,7 +1,7 @@
 """
 配置动态路由
 """
-from app import app
+from app.app import app
 
 
 @app.route('/users/<name>')
